@@ -23,7 +23,7 @@ Name_of_Drug_or_Biological_or_Device_or_Medical_Supply_5 VARCHAR(100));
 
 SET GLOBAL local_infile = 'ON';
 
-LOAD DATA LOCAL INFILE 'C:/Users/madkpott/OneDrive - Indiana University/ONeill Projects/Open_Payments_Data/test/OP_19-24_bloom.csv'
+LOAD DATA LOCAL INFILE 'Open_Payments_Data/test/OP_19-24_bloom.csv'
 INTO TABLE OP
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
